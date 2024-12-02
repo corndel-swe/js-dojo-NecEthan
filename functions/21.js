@@ -8,5 +8,9 @@
  * Example: isWithinRangeAndEven(8, 1, 10) should return true.
  */
 export function isWithinRangeAndEven(num, lower, upper) {
-  // TODO: Return true if num is greater than or equal to lower, less than or equal to upper, and even
+  if (num > lower && num < upper && num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }

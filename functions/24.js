@@ -6,5 +6,19 @@
  * Example: dayType('Saturday') should return 'Weekend'.
  */
 export function dayType(day) {
-  // TODO: Return 'Weekday' for Monday to Friday, and 'Weekend' for Saturday and Sunday
+  const dayLower = day.toLowerCase();
+
+  if (dayLower === 'saturday' || dayLower === 'sunday') {
+    return 'Weekend';
+  } else if (
+    dayLower === 'monday' ||
+    dayLower === 'tuesday' ||
+    dayLower === 'wednesday' ||
+    dayLower === 'thursday' ||
+    dayLower === 'friday'
+  ) {
+    return 'Weekday';
+  } else {
+    return 'Invalid day'; 
+  }
 }

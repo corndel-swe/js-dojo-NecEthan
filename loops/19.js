@@ -14,4 +14,16 @@ export function countPositiveReviews(reviews) {
   // TODO: For each review, check if it is a positive review (4 or 5 stars).
   // TODO: If it is, increment the count.
   // TODO: Return the count of positive reviews.
+
+  let count = 0;
+
+  for (let i=0; i < reviews.length; i++) {
+    if (reviews[i] === 4 || reviews[i] === 5) {
+      count++
+    }
+  }
+
+  console.log(count)
+
+  return count;
 }

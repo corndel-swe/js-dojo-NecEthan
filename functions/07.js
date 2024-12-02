@@ -7,5 +7,9 @@
  * Example: didPass(75, 50) should return true.
  */
 export function didPass(score, passMark) {
-  // TODO: return true if score is greater than or equal to passMark
+  if (score >= passMark) {
+    return true
+  } else {
+    return false
+  }
 }

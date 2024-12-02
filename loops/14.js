@@ -15,4 +15,14 @@ export function countOccurrences(arr, element) {
   // TODO: For each element, check if it is equal to the specified element.
   // TODO: If it is, increment the count.
   // TODO: Return the count.
+
+  let count = 0;
+
+  for (let item of arr) {
+    if (item === element) {
+      count++
+    }
+  }
+
+  return count;
 }

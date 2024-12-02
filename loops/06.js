@@ -9,6 +9,13 @@
  * countDivisibleBy3(5);
  */
 export function countDivisibleBy3(input) {
+  let count = 0;
+  for (let i = 1; i < input; i++) {
+    if (i % 3 === 0) {
+      count = count + 1 
+    }
+  }
+  return count
   // TODO: Initialize a variable to hold the count.
   // TODO: Use a for loop to iterate from 1 to one less than the input number.
   // TODO: Check if the current number is divisible by 3.

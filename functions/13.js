@@ -7,5 +7,6 @@
  * Example: perimeter(10, 5) should return 30.
  */
 export function perimeter(length, width) {
+  return 2 * (length + width)
   // TODO: Calculate the perimeter using the formula 2 * (length + width)
 }

@@ -7,5 +7,6 @@
  * Example: ingredientAmount(2, 4) should return 8.
  */
 export function ingredientAmount(baseAmount, servings) {
+  return baseAmount * servings
   // TODO: return the adjusted amount by multiplying baseAmount and servings
 }
