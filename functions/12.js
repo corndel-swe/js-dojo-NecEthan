@@ -8,5 +8,10 @@
  * Example: isBetween(5, 1, 10) should return true.
  */
 export function isBetween(num, lower, upper) {
+  if (num > lower && num < upper) {
+    return true
+  } else {
+    return false
+  }
   // TODO: Return true if num is greater than lower and less than upper
 }

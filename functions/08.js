@@ -6,5 +6,10 @@
  * Example: isAboveFreezing(5) should return true.
  */
 export function isAboveFreezing(temperature) {
+  if (temperature > 0) {
+    return true
+  } else {
+    return false
+  }
   // TODO: return true if temperature is greater than 0
 }

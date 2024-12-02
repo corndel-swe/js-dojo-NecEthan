@@ -7,5 +7,10 @@
  * Example: canGoPicnic(true, true) should return true.
  */
 export function canGoPicnic(isSunny, isWeekend) {
+  if (isSunny && isWeekend) {
+    return true
+  } else {
+    return false
+  }
   // TODO: return true if both isSunny and isWeekend are true
 }

@@ -14,4 +14,14 @@ export function findMin(arr) {
   // TODO: For each element, check if it is less than the current minimum value.
   // TODO: If it is, update the minimum value.
   // TODO: Return the minimum value.
+
+  let minValue = arr[0];
+  
+  for (let item of arr) {
+    if (item < minValue) {
+      minValue = item
+    }
+  }
+
+  return minValue
 }

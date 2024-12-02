@@ -8,5 +8,9 @@
  * Example: canVote(20, true, true) should return true.
  */
 export function canVote(age, isCitizen, isRegistered) {
-  // TODO: Return true if age is 18 or older, isCitizen is true, and isRegistered is true
+  if (age >= 18 && (isCitizen && isRegistered)) {
+    return true
+  } else {
+    return false
+  }
 }

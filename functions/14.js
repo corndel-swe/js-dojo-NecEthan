@@ -6,5 +6,6 @@
  * Example: celsiusToFahrenheit(0) should return 32.
  */
 export function celsiusToFahrenheit(celsius) {
+  return (celsius * 9/5) + 32
   // TODO: Convert the temperature using the formula (celsius * 9/5) + 32
 }

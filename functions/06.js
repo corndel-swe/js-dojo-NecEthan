@@ -6,5 +6,10 @@
  * Example: canVote(20) should return true.
  */
 export function canVote(age) {
+  if (age >= 18) {
+    return true
+  } else {
+    return false
+  }
   // TODO: return true if age is greater than or equal to 18
 }
